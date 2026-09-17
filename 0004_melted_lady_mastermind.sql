@@ -1,0 +1,1 @@
+ALTER TABLE `officers` ADD `delta` text DEFAULT '' NOT NULL;

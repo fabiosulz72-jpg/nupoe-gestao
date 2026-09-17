@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "nupoe-gestao",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-05-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "no_bundle": true,
+  "assets": {
+    "directory": "dist/client"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "nupoe-gestao-db",
+      "database_id": "03f1c6c7-121f-4a89-a07a-1917c914fccf"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
