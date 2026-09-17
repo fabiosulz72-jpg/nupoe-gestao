@@ -9,3 +9,4 @@ Pacote de implantação do sistema NUPOE na Cloudflare Workers, com banco de dad
 3. Use `npx wrangler deploy` como comando de implantação.
 
 O sistema inicializa automaticamente as equipes, os policiais importados e o histórico de missões na primeira abertura.
+Implantação Cloudflare ativa.
